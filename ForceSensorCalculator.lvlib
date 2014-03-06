@@ -5,8 +5,8 @@
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Item Name="Config" Type="Folder">
-		<Item Name="Bridge Resistors.ctl" Type="VI" URL="/&lt;userlib&gt;/Common/Devices/ForceSensorCalculator/Config/Bridge Resistors.ctl"/>
-		<Item Name="Force Sensor Calculator.ctl" Type="VI" URL="/&lt;userlib&gt;/Common/Devices/ForceSensorCalculator/Config/Force Sensor Calculator.ctl"/>
+		<Item Name="BridgeResistors.ctl" Type="VI" URL="/&lt;userlib&gt;/Common/Devices/ForceSensorCalculator/Config/BridgeResistors.ctl"/>
+		<Item Name="ForceSensorCalculator.ctl" Type="VI" URL="/&lt;userlib&gt;/Common/Devices/ForceSensorCalculator/Config/ForceSensorCalculator.ctl"/>
 	</Item>
 	<Item Name="ForceSensorCalculator" Type="Folder">
 		<Item Name="ForceSensorCalculator.lvclass" Type="LVClass" URL="/&lt;userlib&gt;/Common/Devices/ForceSensorCalculator/ForceSensorCalculator/ForceSensorCalculator.lvclass"/>
